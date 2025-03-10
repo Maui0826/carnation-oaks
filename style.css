@@ -3,6 +3,7 @@
   --primary: #d9e2de;
   --prime: #f8ecec;
   --icons: #66232f;
+  --maroon: #6b091b;
   --secondary: #f796b6;
   --accent: #035594;
   --white: #fff;
@@ -135,7 +136,7 @@ html {
   width: 100vw;
   padding: 0 10px;
   color: var(--text);
-  background: linear-gradient(to right, var(--prime) var(--secondary));
+  background: linear-gradient(to right, var(--prime) var(--icons));
   display: flex;
   flex-direction: row-reverse;
 }
@@ -176,7 +177,7 @@ html {
   margin: 0;
   font-size: 4.5rem;
   font-weight: 700;
-  color: var(--secondary);
+  color: var(--maroon);
 }
 
 .home-div h2 {
