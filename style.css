@@ -3,6 +3,7 @@
   --primary: #d9e2de;
   --prime: #f8ecec;
   --icons: #66232f;
+  --maroon: #580e1c;
   --secondary: #f796b6;
   --accent: #035594;
   --white: #fff;
@@ -176,7 +177,7 @@ html {
   margin: 0;
   font-size: 4.5rem;
   font-weight: 700;
-  color: var(--secondary);
+  color: var(--maroon);
 }
 
 .home-div h2 {
@@ -197,7 +198,7 @@ html {
 }
 
 .home-div button {
-  background: var(--accent);
+  background: var(--maroon);
   color: white;
   border-radius: 20px;
   padding: 10px 20px;
@@ -585,7 +586,7 @@ input {
 footer {
   text-align: center;
   padding: 10px;
-  background: var(--secondary);
+  background: var(--maroon);
   color: white;
   margin-top: 20px;
 }
@@ -745,9 +746,11 @@ footer p {
     background: linear-gradient(
       to bottom,
       var(--primary),
+      var(--maroon),
       var(--primary),
       var(--secondary),
       var(--primary),
+      var(--maroon),
       var(--secondary),
       var(--primary),
       var(--secondary)
@@ -919,7 +922,6 @@ footer p {
   footer {
     text-align: center;
     padding: 5px;
-    background: var(--secondary);
     color: var(--prime);
     margin-top: 10px;
   }
@@ -1243,7 +1245,6 @@ footer p {
   footer {
     text-align: center;
     padding: 5px;
-    background: var(--secondary);
     color: var(--prime);
     margin-top: 10px;
   }
